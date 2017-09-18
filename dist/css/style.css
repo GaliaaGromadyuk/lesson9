@@ -26,7 +26,8 @@ html{
 	float: left;
 	}
 body {
-	max-width: 1500px;
+	max-width: 1300px;
+	min-width: 1300px;
 	position: relative;
 	top: 0;
     right: 0;
@@ -164,11 +165,12 @@ li .bg {
 	display: none;
 	background: #e10011;
 	z-index: 2;
-	top:36px;
-	bottom:36px;
-	right:36px;
-	left:36px;
+	top:34px;
+	bottom:34px;
+	right:34px;
+	left:34px;
 	text-align: left;
+	border-radius: 5px;
 }
 
 li span{
